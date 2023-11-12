@@ -12,5 +12,6 @@ jobs:
       shield: '["the_keyboard_left", "the_keyboard_right"]'
       alphas: '["QWERTY"]'
       custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
-      kconfig: '["CONFIG_ZMK_MOUSE=y"]'
+      kconfig: '["CONFIG_ZMK_SLEEP=y\nCONFIG_ZMK_MOUSE=y"]'
       branches: '["urob/zmk/mouse-3.2"]'
+      clipboard: '["mac"]'
